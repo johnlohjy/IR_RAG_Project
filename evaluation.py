@@ -1,4 +1,5 @@
 import numpy as np
+import math
 
 def precision_at_k(r,k):
     r = r[:k]
@@ -41,3 +42,19 @@ def mean_reciprocal_rank(rs):
 
     m_rec_r = num/den
     return m_rec_r
+
+def dcg_at_k(r, k):
+    if k > len(r):
+         k = len(r)
+    dcg = 0
+    for rank in range(1,k+1):
+        dcg += r[rank-1]/math.log(rank+1,2)
+    return dcg
+
+def ndcg_at_k(r, k):
+    r_sorted = sorted(r,reverse=True)
+    dcg = dcg_at_k(r, k)
+    idcg = dcg_at_k(r_sorted, k)
+    if idcg==0:
+        return 0
+    return dcg/idcg
