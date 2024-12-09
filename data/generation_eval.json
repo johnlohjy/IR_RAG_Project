@@ -1,0 +1,29 @@
+{
+    "question_1": {
+        "question": "Help me plan a trip to Iceland, I love outdoor activities!",
+        "ground_truth": "\nNone\n"
+    },
+    "question_2": {
+        "question": "What are some special places that I can stay in Finland?",
+        "ground_truth": "\nNone\n"
+    },
+    "question_3": {
+        "question": "Help me plan a trip to Sweden, I love culture and food!",
+        "ground_truth": "\nNone\n"
+    },
+    "question_4": {
+        "question": "What are fun things to do in Sweden?",
+        "ground_truth": "\nNone\n"
+    },
+    "question_5": {
+        "question": "When is the best time to visit Finland to see the northern lights?",
+        "ground_truth": "\nNone\n"
+    },
+    "refusal_questions": [
+        "How old is Barack Obama?",
+        "How fast does a rocket fly?",
+        "Who discovered Gravity?",
+        "What is the fastest fish in the world?",
+        "How hot is the Sun?"
+    ]
+}
