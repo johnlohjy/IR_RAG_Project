@@ -1,0 +1,23 @@
+{
+    "mean_response_relevancy_score": 0.8227228920432031,
+    "overall_citation_recall_val": 0.4920634920634921,
+    "overall_citation_precision_val": 0.9546560846560848,
+    "f1_cg": 0.6494021568446467,
+    "recall_answer": 1.0,
+    "precision_answer": 1.0,
+    "f1_answer": 1.0,
+    "recall_refusal": 0.8,
+    "precision_refusal": 1.0,
+    "f1_refusal": 0.888888888888889,
+    "f1_rg": 0.9444444444444444,
+    "similarity_with_ground_truth": {
+        "all_scores": [
+            0.04454980045557022,
+            0.007606265135109425,
+            0.445474773645401,
+            0.22490227222442627,
+            0.9997156262397766
+        ],
+        "mean": 0.3444497585296631
+    }
+}
