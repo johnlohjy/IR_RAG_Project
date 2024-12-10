@@ -1,0 +1,13 @@
+{
+    "mean_response_relevancy_score": 0.835963441727246,
+    "overall_citation_recall_val": 0.4910726310726311,
+    "overall_citation_precision_val": 0.971851851851852,
+    "f1_cg": 0.6524599888404953,
+    "recall_answer": 1.0,
+    "precision_answer": 1.0,
+    "f1_answer": 1.0,
+    "recall_refusal": 0.8,
+    "precision_refusal": 1.0,
+    "f1_refusal": 0.888888888888889,
+    "f1_rg": 0.9444444444444444
+}
