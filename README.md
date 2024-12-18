@@ -6,9 +6,11 @@
 | Min Hui Liew          | 100XXXX
 | Vannara Lim           | 1006088
 
+This project is designed to be ran on Google Colab.
+
 ## Notebooks and short explanations
 
-Each notebook contains <u>details</u> to use and run the notebook.
+Each notebook contains <u>details</u> to use and run it.
 
 Key things to take note in the notebooks have headings such as 
 - User Action Required
@@ -29,3 +31,13 @@ that can be found at different sections of the notebook
 | Generation.ipynb                                             | Sample code for running RAG System
 | Generation_Similarity.ipynb                                  | Calculate cross-encoder similarity between RAG System response and GPT Web response      
 | citation.ipynb                                               | Citation playground code
+
+## Files and short explanations
+
+Files that were used in this project and could be uploaded to GitHub can be found under ```/data```
+
+| File                                                         | Description                                             
+|--------------------------------------------------------------|---------------------------------------------------------
+| finland_articles.csv                                         | Web scraped data for Finland       
+| iceland_articles.csv                                         | Web scraped data for Iceland                        
+| sweden_articles.csv                                          | Web scraped data for Sweden                           
