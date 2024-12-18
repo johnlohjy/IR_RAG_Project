@@ -3,7 +3,7 @@
 | Authors               | Student ID           
 |-----------------------|-------------------
 | Loh Jianyang John     | 1006360
-| Min Hui Liew          | 100XXXX
+| Liew Min Hui          | 1006166
 | Vannara Lim           | 1006088
 
 This project is designed to be ran on Google Colab.
